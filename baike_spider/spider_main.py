@@ -1,6 +1,12 @@
 #!/usr/env/bin python3
 # -*- coding:utf-8 -*-
 
+"""
+简单的爬虫练习，用于爬取百度百科与Python相关的20个词条
+"""
+
+__author__ = 'Alex Ryan'
+
 from baike_spider import html_outputer, html_parser, url_manager, html_downloader
 
 
